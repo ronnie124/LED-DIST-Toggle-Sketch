@@ -16,9 +16,7 @@ void setup() {
 }
 void loop() {
   Serial.println("Loop started over");
-  // Clears the trigPin condition
   delayMicroseconds(2);
-  // Sets the trigPin HIGH (ACTIVE) for 10 microseconds
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
