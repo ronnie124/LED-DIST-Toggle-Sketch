@@ -34,12 +34,11 @@ void loop() {
       digitalWrite(LEDPin, LOW);
       Serial.println("It's off");
     if (toggle == 1) {
-      Serial.println("It's on");
       digitalWrite(LEDPin, HIGH);
+      Serial.println("It's on");
     }
     } // End part of code that won't work
   }
   
   delay(1500);
-}
 }
